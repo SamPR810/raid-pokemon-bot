@@ -108,6 +108,13 @@
 				'text' => 'Donphan', 'callback_data' => $id.':edit_poke:donphan',
 			],[
 				'text' => 'Flareon', 'callback_data' => $id.':edit_poke:flareon',
+			],[
+				'text' => 'Tangela', 'callback_data' => $id.':edit_poke:tangela',
+		]],[[
+				'text' => 'Piloswine', 'callback_data' => $id.':edit_poke:piloswine',
+			],[
+				'text' => 'Tier 3 (Unkown)', 'callback_data' => $id.':edit_poke:tier3',
+			
 		]]];
 	} else if ($data['arg']=='type_2') {
 		$keys = 
@@ -160,6 +167,16 @@
 				'text' => 'Wailmer', 'callback_data' => $id.':edit_poke:wailmer',
 			],[
 				'text' => 'Magikarp', 'callback_data' => $id.':edit_poke:magikarp',
+		]],[[
+				'text' => 'Buneary', 'callback_data' => $id.':edit_poke:buneary',
+			],[
+				'text' => 'Shinx', 'callback_data' => $id.':edit_poke:shinx',
+			],[
+				'text' => 'Kricketot', 'callback_data' => $id.':edit_poke:kricketot',
+		]],[[
+				'text' => 'Bidoof', 'callback_data' => $id.':edit_poke:bidoof',
+			],[
+				'text' => 'Tier 1 (Unknown)', 'callback_data' => $id.':edit_poke:tier1',
 		]]];
 	} else {
 		/* Edit pokemon */
